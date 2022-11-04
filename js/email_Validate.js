@@ -11,7 +11,7 @@ function validacaoEmail(field) {
         (dominio.search(".")!=-1) &&
         (dominio.indexOf(".") >=1)&&
         (dominio.lastIndexOf(".") < dominio.length - 1)) {
-    document.getElementById("msgemail").innerHTML="<font color='green'>válido</font>";
+    document.getElementById("msgemail").innerHTML="<font color='white'>válido</font>";
     alert("E-mail valido");
     }
     else{
