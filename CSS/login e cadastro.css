@@ -14,7 +14,7 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-color: #fff;
+  background: linear-gradient(10deg, #000000 21%, #0052ff 30% , #ffffff 100%);
   min-height: 100vh;
   overflow: hidden;
 }
@@ -178,7 +178,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #1b1b1d 0%, #1d1a47 100%);
+  background-image: linear-gradient(-1deg, #000000 10%, #0052ff 25% , #ffffff 100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
